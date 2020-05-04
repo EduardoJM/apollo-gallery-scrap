@@ -10,7 +10,7 @@ gallery = ApolloScrapperGallery()
 # gallery.scrap('14')
 
 # for scrap all galleries, use this:
-# gallery.scrap_all()
+gallery.scrap_all()
 
 #
 # Scraping Magazines
