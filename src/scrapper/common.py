@@ -121,8 +121,9 @@ class ApolloScrapperCommon:
                             except:
                                 link_id = "1"
                             dict_links = self.get_image_url(s_id, is_magazine, link_id)
+                            gid = s_id.replace("/", "-")
                             current.append({
-                                "id": s_id,
+                                "id": gid,
                                 "credits": s_cred,
                                 "description": s_desc,
                                 "date": s_date,
