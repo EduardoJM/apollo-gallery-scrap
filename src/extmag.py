@@ -21,6 +21,6 @@ for file in os.listdir(find_dir):
         output += "]\n},"
 output += "]"
 
-f = open("storage/magazine.json", "w+")
+f = open("storage/magazines.json", "w+")
 f.write(output)
 f.close()
